@@ -6,7 +6,7 @@ Gives you Minecraft's built-in [night vision](https://minecraft.wiki/w/Night_Vis
 
 ---
 
-**Please note:** This mod is **Java Edition only** and is **only hosted on [Modrinth](https://modrinth.com/mod/chrissinightvision)**. If you see it elsewhere, it's likely not an official version.
+**Please note:** This mod is **Java Edition only** and is **only hosted on [Modrinth](https://modrinth.com/mod/chrissi-nightvision)**. If you see it elsewhere, it's likely not an official version.
 
 If you'd like to get in touch, feel free to join my [Discord server](https://discord.gg/Qdk3TcDv6N).
 
@@ -39,6 +39,7 @@ config/chrissi-nightvision.json
 </details>
 
 <details>
+
 <summary>Server Usage & Legality</summary>
 
 ⚠️ **Use at your own risk!**
