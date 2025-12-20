@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "chrissi-nightvision",
+	"version": "${version}",
+	"name": "chrissi's Night Vision",
+	"description": "A lightweight client-side mod that allows you to toggle the night vision effect with a keybind.",
+	"authors": [
+		"chrissi"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/chrissi",
+		"sources": "https://github.com/chrissitxt/chrissi-nightvision",
+		"issues": "https://github.com/chrissitxt/chrissi-nightvision/issues"
+	},
+	"license": "Unlicense",
+	"icon": "assets/chrissi-nightvision/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"chrissi.nightvision.NightVisionClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": ">=26.1-",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
