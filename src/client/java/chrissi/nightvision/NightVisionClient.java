@@ -3,7 +3,7 @@ package chrissi.nightvision;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
@@ -36,7 +36,7 @@ public class NightVisionClient implements ClientModInitializer {
         }
 
         // register keybind (default: V key)
-        toggleKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
+        toggleKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.chrissi-nightvision.toggle",
                 GLFW.GLFW_KEY_V,
                 KeyMapping.Category.MISC
