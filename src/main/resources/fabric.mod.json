@@ -8,7 +8,7 @@
 		"chrissi"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/user/chrissi",
+		"homepage": "https://chrissitxt.me/",
 		"sources": "https://github.com/chrissitxt/chrissi-nightvision",
 		"issues": "https://github.com/chrissitxt/chrissi-nightvision/issues"
 	},
@@ -21,7 +21,7 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.18.3",
+		"fabricloader": ">=0.18.4",
 		"minecraft": ">=26.1-",
 		"java": ">=25",
 		"fabric-api": "*"
