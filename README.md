@@ -12,8 +12,8 @@ Gives you Minecraft's built-in night vision instead of just boosting brightness,
 
 - Minecraft 26.1+ (for older versions use v0.3)
 - Java 25
-- Fabric Loader 0.18.3+
-- Fabric API 0.140.1+
+- Fabric Loader 0.18.4+
+- Fabric API 0.140.3+
 
 ##
 
