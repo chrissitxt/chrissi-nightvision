@@ -1,4 +1,4 @@
-![Banner](https://i.imgur.com/0cvXiAk.png)
+<![Banner](https://i.imgur.com/0cvXiAk.png)
 
 chrissi's Night Vision is a lightweight client-side mod that allows you to toggle the night vision effect with a keybind.
 
@@ -8,13 +8,6 @@ Gives you Minecraft's built-in night vision instead of just boosting brightness,
 
 **Please note:** This mod is Java Edition only and exclusively hosted on [Modrinth](https://modrinth.com/mod/chrissi-nightvision). The source code is available on [GitHub](https://github.com/chrissitxt/chrissi-nightvision) under the Unlicense. If you'd like to get in touch, feel free to join my [Discord server](https://discord.gg/Qdk3TcDv6N).
 
-## Requirements
-
-- Minecraft 26.1+ (for older versions use v0.3)
-- Java 25
-- Fabric Loader 0.18.4+
-- Fabric API 0.140.3+
-
 ##
 
 <details>
@@ -23,7 +16,7 @@ Gives you Minecraft's built-in night vision instead of just boosting brightness,
 
 Press **V** (default keybind) to toggle night vision on or off.
 
-To change the keybind, go to **Options → Controls → chrissi's Night Vision** and look for "Toggle Night Vision".
+To change the keybind, go to **Options → Controls → Miscellaneous** and look for "Toggle Night Vision".
 
 You can customize the mod's behavior by editing the config file located at:
 
