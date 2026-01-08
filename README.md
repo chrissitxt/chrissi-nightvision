@@ -1,6 +1,6 @@
 <![Banner](https://i.imgur.com/0cvXiAk.png)
 
-chrissi's Night Vision is a lightweight client-side mod that allows you to toggle the night vision effect with a keybind.
+chrissi's Night Vision is a lightweight client-side utility mod that allows you to toggle the night vision effect with a keybind.
 
 Gives you Minecraft's built-in night vision instead of just boosting brightness, so you keep the original lighting and full shader support; all in a very lightweight way.
 
