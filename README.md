@@ -1,4 +1,4 @@
-<![Banner](https://i.imgur.com/0cvXiAk.png)
+![Banner](https://i.imgur.com/0cvXiAk.png)
 
 chrissi's Night Vision is a lightweight client-side utility mod that allows you to toggle the night vision effect with a keybind.
 
