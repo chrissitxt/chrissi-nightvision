@@ -12,7 +12,7 @@
 		"sources": "https://github.com/chrissitxt/chrissi-nightvision",
 		"issues": "https://github.com/chrissitxt/chrissi-nightvision/issues"
 	},
-	"license": "Unlicense",
+	"license": "MIT",
 	"icon": "assets/chrissi-nightvision/icon.png",
 	"environment": "client",
 	"entrypoints": {
