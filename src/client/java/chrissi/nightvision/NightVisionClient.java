@@ -10,24 +10,21 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
 import org.lwjgl.glfw.GLFW;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class NightVisionClient implements ClientModInitializer {
     public static final String MOD_ID = "chrissi-nightvision";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-    public static NightVisionClient INSTANCE;
 
     private static final int COLOR_GREEN = 0x00FF00;
     private static final int COLOR_RED = 0xFF0000;
 
+    private static NightVisionClient instance;
     private KeyMapping toggleKey;
     private boolean isEnabled = false;
     public static NightVisionConfig config;
 
     @Override
     public void onInitializeClient() {
-        INSTANCE = this;
+        instance = this;
         config = NightVisionConfig.load();
 
         // restore previous state if persistence is enabled
@@ -35,7 +32,7 @@ public class NightVisionClient implements ClientModInitializer {
             isEnabled = true;
         }
 
-        // register keybind (default: V key)
+        // register keybind (default: v key)
         toggleKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.chrissi-nightvision.toggle",
                 GLFW.GLFW_KEY_V,
@@ -74,6 +71,10 @@ public class NightVisionClient implements ClientModInitializer {
                 config.save();
             }
         });
+    }
+
+    public static NightVisionClient getInstance() {
+        return instance;
     }
 
     private void toggleNightVision(Minecraft client) {
