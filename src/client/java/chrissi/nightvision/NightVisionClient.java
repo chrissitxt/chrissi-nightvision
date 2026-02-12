@@ -97,7 +97,7 @@ public class NightVisionClient implements ClientModInitializer {
 
             Component message = Component.literal("Night Vision: ").append(statusText);
 
-            client.player.displayClientMessage(message, true);
+            client.player.sendSystemMessage(message);
         }
     }
 }
