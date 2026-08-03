@@ -58,6 +58,15 @@ public class NightVisionClient implements ClientModInitializer {
                 isEnabled = false;
             }
 
+            // optional: auto-toggle based on in-game time
+            if (config.autoToggleByTime && client.level != null) {
+                long timeOfDay = client.level.getOverworldClockTime() % 24000L;
+                boolean isNight = timeOfDay >= 13000L && timeOfDay < 23000L;
+                if (isNight != isEnabled) {
+                    toggleNightVision(client);
+                }
+            }
+
             // handle keybind press
             while (toggleKey.consumeClick()) {
                 toggleNightVision(client);
@@ -85,7 +94,7 @@ public class NightVisionClient implements ClientModInitializer {
         if (config.playSound && client.player != null) {
             client.player.playSound(
                     isEnabled ? SoundEvents.NOTE_BLOCK_PLING.value() : SoundEvents.NOTE_BLOCK_BASS.value(),
-                    0.3f,
+                    config.soundVolume,
                     isEnabled ? 2.0f : 0.5f
             );
         }
