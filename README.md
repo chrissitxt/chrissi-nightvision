@@ -6,7 +6,7 @@ Gives you Minecraft's built-in night vision instead of just boosting brightness,
 
 ---
 
-**Please note:** This mod is Java Edition only and exclusively hosted on [Modrinth](https://modrinth.com/mod/chrissi-nightvision). The source code is available on [GitHub](https://github.com/chrissitxt/chrissi-nightvision). If you'd like to get in touch, feel free to join my [Discord server](https://discord.gg/Qdk3TcDv6N).
+**Please note:** This mod is Java Edition only and exclusively hosted on [Modrinth](https://modrinth.com/mod/chrissi-nightvision). The source code is available on [GitHub](https://github.com/chrissitxt/chrissi-nightvision).
 
 ##
 
@@ -25,8 +25,6 @@ config/chrissi-nightvision.json
 ```
 
 **Note:** You need to restart Minecraft after changing the config file for changes to take effect.
-
-**Mod Menu integration** may be considered for future updates, but for now, manual config editing keeps the mod lightweight and dependency-free.
 
 </details>
 
