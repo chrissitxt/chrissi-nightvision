@@ -19,6 +19,8 @@ public class NightVisionConfig {
     public boolean showStatusEffect = true;
     public boolean showToggleMessage = true;
     public boolean persistState = true;
+    public boolean autoToggleByTime = false;
+    public float soundVolume = 0.3f;
 
     // internal state tracking
     public boolean lastEnabledState = false;
