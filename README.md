@@ -18,13 +18,13 @@ Press **V** (default keybind) to toggle night vision on or off.
 
 To change the keybind, go to **Options → Controls → Miscellaneous** and look for "Toggle Night Vision".
 
-You can customize the mod's behavior by editing the config file located at:
+You can customize the mod's behavior either through [Mod Menu](https://modrinth.com/mod/modmenu) or by editing the config file directly:
 
 ```
 config/chrissi-nightvision.json
 ```
 
-**Note:** You need to restart Minecraft after changing the config file for changes to take effect.
+**Note:** If you edit the config file directly, you need to restart Minecraft for changes to take effect. Changes made through Mod Menu apply immediately.
 
 </details>
 
