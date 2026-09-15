@@ -9,7 +9,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
-import org.lwjgl.glfw.GLFW;
+import com.mojang.blaze3d.platform.InputConstants;
 
 public class NightVisionClient implements ClientModInitializer {
     public static final String MOD_ID = "chrissi-nightvision";
@@ -35,7 +35,7 @@ public class NightVisionClient implements ClientModInitializer {
         // register keybind (default: v key)
         toggleKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.chrissi-nightvision.toggle",
-                GLFW.GLFW_KEY_V,
+                InputConstants.KEY_V,
                 KeyMapping.Category.MISC
         ));
 
